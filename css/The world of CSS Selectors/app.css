@@ -1,0 +1,60 @@
+/* Select everything */
+/* * {
+  color: black;
+}  */
+
+/* using comma to unite two class */
+h1, h2 {
+  color: red;
+}
+
+/* id selector. Ids are unique */
+#signup {
+  color: #000;
+  background-color: #000;
+}
+
+/* class selctor. Can be anchor together */
+.class {
+  color: #000;
+  background-color: #000;
+}
+
+/* descendant selector */
+li a {
+  color: aqua;
+  /* select all anchor tag that descend from li */
+}
+
+/* adjacent selector */
+h1 + p {
+  color: red;
+  /* only that p that comes after h1 */
+}
+
+/* direct child */
+div > li {
+  background-color: #000;
+  /* select directed descendants */
+}
+
+/*Atribute selector */
+input[type="password"] {
+  color: orange;
+  /* will change all input that are type password */
+}
+
+/* pseudo classes
+like when smt is active, checked, hover, first, fist-child */
+a:hover {
+  color: red
+}
+
+.post:nth-last-of-type(2n){
+  background-color: red;
+  /* will change each 2 post(class) */
+}
+
+.post:nth-of-type(even) {
+  background-color: black;
+}

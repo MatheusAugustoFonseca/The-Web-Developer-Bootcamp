@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  /* text-align:left; */
+  /* text-align: right; */
+  font-weight: normal;
+  letter-spacing: 15px;
+  font-size: 75px;
+}
+
+p {
+  text-align: right;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+h2 {
+  text-decoration: blue wavy underline;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a { text-decoration: none;}

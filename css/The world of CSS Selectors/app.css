@@ -58,3 +58,18 @@ a:hover {
 .post:nth-of-type(even) {
   background-color: black;
 }
+
+/* Pseudo elements:
+first-letter, first-line, after, before */
+h2::first-letter {
+  font-size: large;
+}
+
+p::selection {
+  background-color: burlywood;
+}
+
+::selection {
+  /* select all file */
+  background-color: burlywood;
+}

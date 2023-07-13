@@ -1,0 +1,54 @@
+/* width <<<-->>>
+and height ^ */
+h1 {
+  background-color: aquamarine;
+  width: 50px;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+p {
+  width: 250px;
+  height: 400px;
+}
+
+#one {
+  background-color: blueviolet;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-left: 50px;
+}
+#two {
+  background-color: rgb(54, 17, 88);
+  border-width: 7px;
+  border-color: rgb(93, 215, 127);
+  border-left-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 10px 100px / 120px;
+
+}
+#three {
+  background-color: rgb(197, 164, 230);
+  border: 4px solid yellow;
+  padding: 10px 20px 30px 60px;
+  /* works like clockwise */
+}
+
+/* border
+border-width
+border-color
+border-style */
+
+/* padding is the space between 
+the content and the border*/
+
+/* margin is the space outside the borders */
+body {
+  margin: 0;
+}
+
+/* display property */
+/* inline block inline-block*/

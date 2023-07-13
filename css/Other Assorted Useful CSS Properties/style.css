@@ -1,0 +1,15 @@
+/* rgba a is how transparent is the color */
+/* The a value goes to 0 to 1 (1 = no transparent at all) */
+
+/* opacity, aplies to all the elements inside
+it gost to 0 to 1 */
+
+/* position
+Sets how an element is positoned in a document */
+/* static is the default
+relative
+absolute
+fixed
+sticky */
+
+/* transition */

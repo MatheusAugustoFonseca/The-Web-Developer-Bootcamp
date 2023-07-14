@@ -12,4 +12,19 @@ absolute
 fixed
 sticky */
 
-/* transition */
+/* transition 
+property name
+duration
+timing function
+delay*/
+
+/* timing function
+https://easings.net/
+transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0) */
+
+/* transform
+transform-origin: top right;
+transform: rotate(45deg) 
+transform: scale(0.5)
+transform: translateX(200px)
+transform: skew()*/

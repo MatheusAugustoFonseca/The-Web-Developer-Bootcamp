@@ -50,3 +50,7 @@ main .maincontent {
 }
 
 
+/* flex short hand
+Apply flex with 3 numbers
+flex: (1 grow, 2 shrink, 3 basis) */
+

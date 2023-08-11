@@ -19,3 +19,25 @@ body {
 #mainNav .nav-link:hover {
   color:  rgb(153, 76, 148);
 }
+
+#upper-case{
+  text-transform: uppercase;
+}
+
+#upper-case span {
+  color: red;
+}
+
+#upper-case h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #upper-case h1 {
+      font-weight: 100;
+      font-size: 3rem;
+    }
+}
+
+/* worked today: 11/08/2023 */

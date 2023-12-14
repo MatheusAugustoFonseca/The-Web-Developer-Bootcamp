@@ -26,3 +26,5 @@ while (comand !== 'quit') {
   }
 }
 console.log("See you soon");
+
+s

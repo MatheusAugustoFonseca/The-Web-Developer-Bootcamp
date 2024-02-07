@@ -1,0 +1,4 @@
+/* 
+JavaScript fallows stacks
+it goes last in first out 
+*/

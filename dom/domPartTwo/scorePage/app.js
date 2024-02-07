@@ -20,10 +20,10 @@ console.log(winningScore);
 reseting()
 });
 
+
 bttnPlusOne.addEventListener('click', function(){
   p1Counter += 1;
   scoreOne.textContent = p1Counter
-  // console.log('btt one', p1Counter ,winningScore);
   if( p1Counter == winningScore){
     scoreOne.style.color = 'green'
     scoreTwo.style.color = 'red'
